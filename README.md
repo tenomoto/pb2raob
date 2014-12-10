@@ -4,7 +4,7 @@ It is based on an [example program](http://www.nco.ncep.noaa.gov/sib/decoders/BU
 
 pb2raob extracts rawinsonde observations at mandatory levels
 on the hour over land on ship.
-Low quality or processed entries are exluded.
+Low quality or processed entries are excluded.
 
 ## Requirements
 
@@ -39,3 +39,4 @@ Variables are Q (mg/kg), T (degC), Z (gpm), U (m/s), V (m/s).
 - Fixed land and ship observations (T29 ie hdr(7) == 11 and 22) are retained.
 - Low quality data (evns(2, lv, jj, kk) > 2.0) and processed data (evns(4, lv, jj, kk) /= 100) are skipped.
 - Mandatory levels (evns(7, lv, 1, 1) == 1.0 or 3.0) are saved.
+w
