@@ -1,4 +1,4 @@
-#pb2raob
+# pb2raob
 
 pb2raob reads NCEP PREPBUFR and save rawinsonde observations in a text file.
 It is based on an [example program](http://www.nco.ncep.noaa.gov/sib/decoders/BUFRLIB/toc/prepbufr/).
